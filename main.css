@@ -1,0 +1,84 @@
+html{
+  background-image: url('https://images.unsplash.com/photo-1454789548928-9efd52dc4031?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a17706f58bd8f2893b75c64da56a5d21&auto=format&fit=crop&w=800&q=60');
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+
+form{
+  border: 1px solid white;
+  width: 50%;
+  padding: 10%;
+  margin-left: 40%;
+}
+input{
+  margin-bottom: 10px;
+  margin-left: 2%;
+}
+
+.container{
+  height: 150vh;
+  width:100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: repeat(3,800px);
+  color: white;
+}
+
+.container div{
+  border: 1px solid white;
+}
+
+.header{
+  grid-column: 1/-1;
+  grid-row: 1/2;
+}
+
+.menu{
+}
+
+#spaceheader{
+  color:white;
+  font-size: 60px;
+  text-align: center;
+}
+
+#rocket{
+  height: 100px;
+  width:100px;
+}
+
+.content{
+  grid-column: 2/-1;
+  grid-row:2/15;
+}
+
+.mars:hover{
+  background-image: url('images/download.jpeg');
+  background-repeat: no-repeat;
+  color:red;
+  cursor: url('images/astronaut.jpg'), auto;
+}
+
+.jupiter:hover{
+  background-image:url('https://cdn.britannica.com/66/155966-131-17B5B518.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.venus:hover{
+  background-image: url('images/venus.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.uranus:hover{
+  background-image: url('images/uranus.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.pluto:hover{
+  background-image: url('images/pluto.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
